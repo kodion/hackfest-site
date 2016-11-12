@@ -7,8 +7,10 @@ rvm:
 # the `install` step will run `bundle install` by default.
 before_install:
   - gem update --system
-  - gem upgrade
-install: gem install jekyll html-proofer
+  - gem update
+install:
+  - gem install jekyll html-proofer
+  - bundle install
 script:
   - jekyll build -c _config_travis.yml
   - htmlproofer ./_site
