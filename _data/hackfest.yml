@@ -25,10 +25,3 @@ pages:
     title: "{{ site.title }} Continuous Integration and Delivery"
     icon: heartbeat
     url: ci-cd
-
-team:
-  - id: brucellino
-    name: Bruce Becker
-    photo:
-    role:
-    orcid:
