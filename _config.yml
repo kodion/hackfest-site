@@ -1,8 +1,8 @@
 # Site settings
 title: 'e-Research Hackfest'
 description: 'Bring your science to the web and the web to your science'
-url: 'http://www.africa-grid.org/'
-baseurl: 'hackfest-site/'
+url: 'http://www.africa-grid.org/hackfest-site'
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
