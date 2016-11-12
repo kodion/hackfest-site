@@ -1,25 +1,22 @@
 # Site settings
-title: 'LSU Hackfest'
-description: 'The Sci-GaIA e-Research Hackfest at the Lagos State University.'
+title: 'e-Research Hackfest'
+description: 'Bring your science to the web and the web to your science'
 url: 'http://localhost:4000/'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
-intro: 'The Sci-GaIA Hackfest brings together e-Science platform developers and scientists, to build tools for scientific discovery. Bring your science to the web and the web to your science. These pages contain everything you need to get going and get it built'
+intro: 'The Sci-GaIA Hackfest brings together e-Science platform developers and scientists, to build tools for scientific discovery. These pages contain everything you need to get going and get it built'
 
 organiser:
-  name: 'Sci-GaIA Project'
-  email: info@sci-gaia.eu
-  twitter_username: ei4africa
-  twitter_hashtags:
+  name: 'Awesome McFancy'
+  email: best@super.com
+  twitter_username:
   facebook_username:
-  github_username: Sci-GaIA
+  github_username:
   linkedin_username:
-
 infrastructure:
-  jenkins_url: 'https://ci.sagrid.ac.za'
-
+  jenkins_url: ''
 defaults:
   -
     scope:
@@ -43,3 +40,4 @@ kramdown:
 
 gems: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+exclude: [vendor]

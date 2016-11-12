@@ -7,23 +7,25 @@ brucellino:
     twitter: brusisceddu
     homepage: http://brucellino.me
 owen:
-    name: Owen
-    photo:
+    name: "Owen  Iyoha"
+    photo: profile.jpg
     orcid:
     github:
     twitter:
+    homepage:
 omo:
-  name: Omo Oaia
-  photo:
-  role: Organiser
+  name: "Omo Oaia"
+  photo: profile.jpg
   orcid:
   github:
   twitter:
+  homepage:
 
 organisers:
   - owen
   - omo
   - brucellino
+  - roberto
 facilitators:
   - roberto
   - mario

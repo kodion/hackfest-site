@@ -5,31 +5,37 @@ permalink: /team/
 author: brucellino
 contributors:
 ---
-
 This event wouldn't have happened without the support of the organisers, facilitators and all those who participated.
 
+<div container>
+{% assign nOrganisers = site.data.team.organisers | size %}
+{% comment %} We need to calculate the number of rows for nOrgs and 3 cols - ceil(nOrgs/3){% endcomment %}
+{% assign nrows = nOrganisers | divided_by: 3 | ceil %}
 
-<ul class="nav nav-tabs">
-  <li role="presentation" class="active"><a data-toggle="tab" href="#organisers">Organsing Team</a></li>
-  <li role="presentation"><a data-toggle="tab"  href="#facilitators">Facilitators</a></li>
-  <!-- <li role="presentation"><a href="#special">Special Mention</a></li> -->
-</ul>
-
-
-<div class="tab-content clearfix">
-  <div class="tab-pane fade-in active" id="organisers">
-    <div class="col-sm-4">
-    {% for dude in site.data.team.organisers %}
-      <img class="img img-responsive img-circle" src="images/{{ site.data.team[dude].image }}">
-      {{ site.data.team[dude].name }}
-    {% endfor %}
-  </div>
-  </div>
-  <div class="tab-pane fade-in" id="facilitators">
-    {% for dude in site.data.team.facilitators %}
-    {{ dude }}
-      {{ site.data.team[dude].name }}
-      <img class="team-image" src="images/{{ dude.image }}">
-    {% endfor %}
-  </div>
+{% assign row_offset = nrows | minus: 1 %}
+{% for row in (1..nrows) %}
+<div class="row">
+  {% for dude in site.data.team.organisers | offset: row_offset | limit: 3 %}
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      {% if site.site.data.team[dude].homepage %}
+      <a href="{{ site.data.team[dude].homepage }}">
+      <img class="img img-circle" style="max-width: 90%;" src="{{ site.url }}/images/{{ site.data.team[dude].photo }}">
+      <div class="caption text-center">
+        {{ site.data.team[dude].name }}</a>
+        {% else %}
+        <img class="img img-circle" style="height: 3em;" src="{{ site.url }}/images/{{ site.data.team[dude].photo }}">
+        <div class="caption text-center">
+          {{ site.data.team[dude].name }}
+        {% endif  %}
+      </div> <!-- now the buttons -->
+      {% if site.data.team[dude].orcid %}
+      <a href="https://orcid.org/{{ site.data.team[dude].orcid }}"><img class="img-thumbnail" src="{{ site.url }}/images/ID_symbol_B-W_16x16.png"  /></a>
+      {% endif %}
+    </div>
+  </div>  {% endfor %} <!-- columns -->
+  {% assign row_offset = row_offset | plus: 3 %}
 </div>
+{% endfor %} <!-- rows -->
+
+</div> <!-- container -->
