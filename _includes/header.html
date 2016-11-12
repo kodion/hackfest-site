@@ -3,7 +3,7 @@
   <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
 </span>
 
-<header class="panel-cover" style="background-image: url({{ "images/background.jpeg" | prepend: site.baseurl }})">
+<header class="panel-cover" style="background-image: url({{ "images/background.jpeg" | prepend: site.url }})">
   <div class="panel-main">
 
     <div class="panel-main__inner panel-inverted">
@@ -66,7 +66,7 @@
 
         <!-- RSS
         <li class="navigation__item">
-          <a href="{{ "feed.xml" | prepend: site.baseurl }}" title="Subscribe" target="_blank">
+          <a href="{{ "feed.xml" | prepend: site.url }}" title="Subscribe" target="_blank">
             <i class="icon icon-rss"></i>
             <span class="label">RSS</span>
           </a>
@@ -79,10 +79,10 @@
         </li>
         </ul>
       </nav>
-      
+
     <div class="panel-main__content">
-        <a href="{{ site.baseurl }}" title="link to home of {{ organiser.name }}">
-          <img src="{{ "images/sci-gaia-logo.png" | prepend: site.baseurl }}" class="user-image" alt="My Profile Photo">
+        <a href="{{ site.url }}" title="link to home of {{ organiser.name }}">
+          <img src="{{ "images/sci-gaia-logo.png" | prepend: site.url }}" class="user-image" alt="My Profile Photo">
           <h1 class="panel-cover__title panel-title"><i class="fa fa-flask"></i> {{ site.title }} <i class="fa fa-globe"></i></h1>
         </a>
         <hr class="panel-cover__divider">
