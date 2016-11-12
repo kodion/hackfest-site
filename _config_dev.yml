@@ -1,0 +1,47 @@
+# Site settings
+title: 'LSU Hackfest'
+description: 'The Sci-GaIA e-Research Hackfest at the Lagos State University.'
+url: 'http://localhost:4000'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+intro: 'The Sci-GaIA Hackfest brings together e-Science platform developers and scientists, to build tools for scientific discovery. Bring your science to the web and the web to your science. These pages contain everything you need to get going and get it built'
+
+organiser: 'Sci-GaIA Project'
+  email: info@sci-gaia.eu
+  twitter_username: ei4africa
+  twitter_hashtags:
+    # - '\#hackfest'
+    # - '\#scigaia'
+    # - '\#tandem'
+  facebook_username:
+  github_username:  Sci-GaIA
+  linkedin_username:
+
+infrastructure:
+  jenkins_url: 'https://ci.sagrid.ac.za'
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

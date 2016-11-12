@@ -1,0 +1,34 @@
+---
+# A list of links to have on the front page.
+pages:
+  - name: About
+    title: "About the {{ site.title }}"
+    icon: info-circle
+    url: about
+  - name: Team
+    title: "The {{ site.title }} team"
+    icon: user-circle
+    url: team
+  - name: Checklist
+    title: "Are you good to go ?"
+    icon: list
+    url: checklist
+  - name: Prequsites
+    title: "{{ site.title }} Prerequisites"
+    icon: check
+    url: prerequisites
+  - name: Use Cases
+    title: "{{ site.title }} use cases"
+    icon: drivers-license-o
+    url: use-cases
+  - name: Integration
+    title: "{{ site.title }} Continuous Integration and Delivery"
+    icon: heartbeat
+    url: ci-cd
+
+team:
+  - id: brucellino
+    name: Bruce Becker
+    photo:
+    role:
+    orcid:
