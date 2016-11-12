@@ -1,4 +1,6 @@
 ---
+# Where is your fork of the repo ? 
+repo: AAROC/hackfest-site
 # A list of links to have on the front page.
 pages:
   - name: About
