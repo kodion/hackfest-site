@@ -1,0 +1,30 @@
+---
+brucellino:
+    name: "Bruce Becker"
+    photo: bruce-becker.jpg
+    orcid: 0000-0002-6607-7145
+    github: brucellino
+    twitter: brusisceddu
+    homepage: http://brucellino.me
+owen:
+    name: Owen
+    photo:
+    orcid:
+    github:
+    twitter:
+omo:
+  name: Omo Oaia
+  photo:
+  role: Organiser
+  orcid:
+  github:
+  twitter:
+
+organisers:
+  - owen
+  - omo
+  - brucellino
+facilitators:
+  - roberto
+  - mario
+  - bruce
