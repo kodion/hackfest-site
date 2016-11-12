@@ -1,18 +1,26 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno/'
+title: 'e-Research Hackfest'
+description: 'The Sci-GaIA e-Research Hackfest'
+url: 'http://www.africa-grid.org/hackfest-site/'
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
-author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+intro: 'The Sci-GaIA Hackfest brings together e-Science platform developers and scientists, to build tools for scientific discovery. Bring your science to the web and the web to your science. These pages contain everything you need to get going and get it built'
+
+organiser: 'Sci-GaIA Project'
+  email: info@sci-gaia.eu
+  twitter_username: ei4africa
+  twitter_hashtags:
+    # - '\#hackfest'
+    # - '\#scigaia'
+    # - '\#tandem'
+  facebook_username:
+  github_username:  Sci-GaIA
+  linkedin_username:
+
+infrastructure:
+  jenkins_url: 'https://ci.sagrid.ac.za'
 
 defaults:
   -
