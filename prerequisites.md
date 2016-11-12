@@ -2,7 +2,7 @@
 layout: page
 title: Prerequisites
 permalink: /prerequisites/
-author: Bruce Becker
+author: brucellino
 contributors:
 ---
 
