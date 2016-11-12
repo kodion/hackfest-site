@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-author: Bruce Becker
+author: brucellino
 contributors:
 ---
 
