@@ -1,4 +1,22 @@
 ---
+# Put the the list of people, organisations and roles here.
+# The individuals are specified by username / id key, which
+# is used to identify them in their roles
+
+# Put profile pictures in images/
+
+# E.g :
+# username:
+#     name: "Boss Dude"
+#     photo: boss-dude.jpg
+#     orcid: 0000-0001-1234-5678
+#     github: bossdude
+#     twitter: bossdude
+#     homepage: http://boss.dude
+#     org: umbrellacorp
+
+# Organisations should have have logo
+
 brucellino:
     name: "Bruce Becker"
     photo: bruce-becker.jpg
@@ -6,27 +24,84 @@ brucellino:
     github: brucellino
     twitter: brusisceddu
     homepage: http://brucellino.me
+    org: csir
+
 owen:
     name: "Owen  Iyoha"
-    photo: profile.jpg
+    photo: original.png
     orcid:
     github:
     twitter:
     homepage:
+    org: eko
+
 omo:
   name: "Omo Oaia"
-  photo: profile.jpg
+  photo: original.png
   orcid:
   github:
   twitter:
   homepage:
+  org: wacren
 
+roberto:
+  name: Roberto Barbera
+  photo: original.png
+  orcid:
+  github:
+  twitter:
+  homepage:
+  org: unict
+
+benjamin:
+  name: Benjamin Aribisala
+  photo: original.png
+  orcid:
+  github:
+  twitter:
+  homepage:
+  org: lasu
+
+benjamin:
+  name: Adeji
+  photo: original.png
+  orcid:
+  github:
+  twitter:
+  homepage:
+  org: lasu
+
+
+rita:
+  name: Rita Ricceri
+  photo: original.png
+  orcid:
+  github:
+  twitter:
+  homepage:
+  org: lasu
+
+mario:
+  name: Mario Torrisi
+  photo: original.png
+  orcid:
+  github:
+  twitter:
+  homepage:
+  org: unict
+
+# Roles
 organisers:
   - owen
   - omo
-  - brucellino
-  - roberto
+  - benjamin
 facilitators:
   - roberto
   - mario
-  - bruce
+  - brucellino
+  - rita
+presenters:
+  - mario
+  - brucellino
+  - ade
+  - benjamin
