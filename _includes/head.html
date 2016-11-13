@@ -27,12 +27,14 @@
   <!-- bootstrap -->
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<!-- Github API -->
+<script src="http://npmcdn.com/github-api/dist/GitHub.min.js"></script>
 
   <link rel="apple-touch-icon" sizes="57x57" href="{{ "images/favicons/apple-touch-icon-57x57.png" | prepend: site.url }}">
   <link rel="apple-touch-icon" sizes="60x60" href="{{ "images/favicons/apple-touch-icon-60x60.png" | prepend: site.url }}">
@@ -55,6 +57,6 @@
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.url }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' |  prepend: site.url }}">
+  <link rel="canonical" href="{{ page.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}feed.xml">
 </head>

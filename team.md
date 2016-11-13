@@ -24,13 +24,13 @@ This event wouldn't have happened without the support of the organisers, facilit
       <div class="caption text-center">
         {{ site.data.team[dude].name }}</a>
         {% else %}
-        <img class="img img-circle" style="height: 3em;" src="{{ site.url }}/images/{{ site.data.team[dude].photo }}">
+        <img class="img img-circle" style="height: 3em;" src="{{ site.url }}/images/{{ site.data.team[dude].photo }}" alt="{{ site.data.team[dude].name }}'s mug">
         <div class="caption text-center">
           {{ site.data.team[dude].name }}
         {% endif  %}
       </div> <!-- now the buttons -->
       {% if site.data.team[dude].orcid %}
-      <a href="https://orcid.org/{{ site.data.team[dude].orcid }}"><img class="img-thumbnail" src="{{ site.url }}/images/ID_symbol_B-W_16x16.png"  /></a>
+      <a href="https://orcid.org/{{ site.data.team[dude].orcid }}"><img class="img-thumbnail" src="{{ site.url }}/images/ID_symbol_B-W_16x16.png" alt="{{ site.data.team[dude].name }}'s  ORCID" /></a>
       {% endif %}
     </div>
   </div>  {% endfor %} <!-- columns -->

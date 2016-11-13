@@ -12,7 +12,7 @@ In order to participate in the hackfest, you will need to do some preliminary ta
 
 ## Get Set
 
-There are a couple of things you need to do _before_ you come to the event. <a class="button" href="{{ site.url}}/before-prep/"><i class="fa fa-arrow-circle-right"></i> Do it</a>
+There are a couple of things you need to do _before_ you come to the event. <a class="btn" href="{{ site.url}}/before-prep/"><i class="fa fa-arrow-circle-right"></i> Do it</a>
 
   - Do your background reading
     - Previous Sci-GaIA hack
