@@ -15,7 +15,7 @@ before_script:
   - bundle install
 script:
   - bundle exec jekyll build -c _config_travis.yml
-  - htmlproofer ./_site
+#  - htmlproofer ./_site
 
 env:
   global:

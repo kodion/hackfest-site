@@ -1,29 +1,29 @@
 ---
-# Where is your fork of the repo ? 
+# Where is your fork of the repo ?
 repo: AAROC/hackfest-site
 # A list of links to have on the front page.
 pages:
   - name: About
     title: "About the {{ site.title }}"
     icon: info-circle
-    url: about
+    url: /about
   - name: Team
     title: "The {{ site.title }} team"
     icon: user-circle
-    url: team
+    url: /team
   - name: Checklist
     title: "Are you good to go ?"
     icon: list
-    url: checklist
+    url: /checklist
   - name: Prequsites
     title: "{{ site.title }} Prerequisites"
     icon: check
-    url: prerequisites
+    url: /prerequisites
   - name: Use Cases
     title: "{{ site.title }} use cases"
     icon: drivers-license-o
-    url: use-cases
+    url: /use-cases
   - name: Integration
     title: "{{ site.title }} Continuous Integration and Delivery"
     icon: heartbeat
-    url: ci-cd
+    url: /ci-cd
