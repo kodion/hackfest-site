@@ -3,9 +3,12 @@ layout: page
 title: Preparation Checklists
 permalink: /checklist/
 author: brucellino
+octocat: agendacat.png
 contributors:
 ---
-<h3><i class="fa fa-quote-left"></i> Be prepared <i class="fa fa-quote-right"></i></h3> Scout motto.
+<div class="row"></div>
+<blockquote><h3><i class="fa fa-quote-left"></i> Be prepared <i class="fa fa-quote-right"></i></h3> - Scout motto.
+</blockquote>
 
 ## Warm up
 
@@ -21,10 +24,15 @@ In order to participate in the hackfest, you will need to do some preliminary ta
 
 ## Get Set
 
-There are a couple of things you need to do _before_ you come to the event. <a class="btn" href="{{ site.url}}/before-prep/"><i class="fa fa-arrow-circle-right"></i> Do it</a>
+There are a couple of things you need to do _before_ you come to the event. <a class="btn" href="{{ site.url}}/before-prep/"><i class="fa fa-check-square-o"></i> Checklist</a>
 
   - Do your background reading
     - Previous Sci-GaIA hack
     - other stuff
 
 ## Go !
+
+You're all good. Time to get hacking !
+
+<a class="btn" href="{{ site.data.hackfest.agenda}}"><i class="fa fa-calendar" aria-hidden="true"></i>
+ See the agenda</a>

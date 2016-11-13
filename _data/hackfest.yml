@@ -1,12 +1,24 @@
 ---
 # Where is your fork of the repo ?
 repo: AAROC/hackfest-site
+# Create a topic on the forum for attendees to introduce themselves
+discuss_topic: http://discourse.sci-gaia.eu/t/agenda-and-training-infrastructure-of-the-wacren-hackfest-lets-start-the-discussion/2366
+start_topic: http://discourse.sci-gaia.eu/t/devops-bootcamp-entebbe-nov-2016-tell-us-about-yourself/2367
+agenda: http://agenda.ct.infn.it/event/1243/other-view?view=indico_infn_meeting
+registration: http://agenda.ct.infn.it/event/1243/registration/register#/register
+# epoch time - use e.g. http://www.freeformatter.com/epoch-timestamp-to-date-converter.html
+start_time: 1479711600
+end_date: 1480521600
 # A list of links to have on the front page.
 pages:
   - name: About
     title: "About the {{ site.title }}"
     icon: info-circle
     url: /about
+  - name: Use Cases
+    title: "{{ site.title }} use cases"
+    icon: drivers-license-o
+    url: /use-cases
   - name: Team
     title: "The {{ site.title }} team"
     icon: user-circle
@@ -15,29 +27,40 @@ pages:
     title: "Are you good to go ?"
     icon: list
     url: /checklist
-  - name: Prequsites
+  - name: Prequisites
     title: "{{ site.title }} Prerequisites"
     icon: check
     url: /prerequisites
-  - name: Use Cases
-    title: "{{ site.title }} use cases"
-    icon: drivers-license-o
-    url: /use-cases
+  - name: Development
+    title: "{{ site.title development setup }}"
+    icon: laptop
+    url: /dev-env
   - name: Integration
     title: "{{ site.title }} Continuous Integration and Delivery"
     icon: heartbeat
     url: /ci-cd
 checklists:
   before:
+    - name: Have a working development environment
+      more:
+      link: |
+            {{ site.url }}/dev-env
     - name: Have a github account
       more: Create an account on github, if you haven't done so already.
-      link: https://github.com/register
+      link: https://github.com/join
     - name: Create your repository
       more: Ensure that your project has a repository on github - we will need it.
       link:
     - name: Have an account on an federated identity provider
       more: Many of the services provided are accessible via SAML-based identity federations.
-      link:
+      link: "{{ site.url }}/idf"
     - name: Join the forum
       more: The forum is the place to discuss ideas, get feedback
       link:
+  dev_env:
+    - name: Editor
+      more: Ensure you have a good editor. We suggest <a href="http://atom.io">Atom</a>
+    - name: Git client
+      more: "You will need the git client, with a properly-configured environment"
+infrastructure:
+  jenkins_url: 'https://ci.sagrid.ac.za'

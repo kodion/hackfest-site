@@ -1,6 +1,27 @@
 ---
-layout: default
+layout: page
+permalink:
+ocotocat: sci-gaia-logo.png
+author: brucellino
+contributors:
 ---
+<div class="jumbotron">
+<h1>{{ site.title }}</h1>
+<h2>Starts {{ site.data.hackfest.start_time | date: "%A %d %B %Y at %H:%M"}}</h2>
+<ul class="list-inline">
+  <li>
+    <a href="{{ site.data.hackfest.registration }}" class="btn"><i class="fa fa-sign-in"></i> Register</a>
+  </li>
+  <li>
+    <a href="{{ site.data.hackfest.discuss_topic }}" class="btn"><i class="fa fa-comments-o"></i> Discussion</a>
+  </li>
+  <li>
+    <a href="{{ site.data.hackfest.agenda }}" class="btn"><i class="fa fa-calendar"></i>  Agenda</a>
+  </li>
+</ul>
+</div>
+<a class="twitter-timeline" data-height="600" data-link-color="#FAB81E" href="https://twitter.com/ei4africa">Tweets by ei4africa</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 <!--

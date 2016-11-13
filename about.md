@@ -6,6 +6,7 @@ author: brucellino
 contributors:
 ---
 
+
 ## TL;DR
 
   * **The project** : The [Sci-GaIA project](http://www.sci-gaia.eu) aims to develop e-infrastructures in Africa and stimulate usage of advanced computing, data, and networking infrastructures, in order to accelerate scientific research. Sci-GaIA has several [activities](http://www.sci-gaia.eu/project-activities/), including [training](http://www.sci-gaia.eu/project-activities/training/)
@@ -14,7 +15,7 @@ contributors:
 
 ## Everything you need
 
-  * [**Readiness Checklists**]() : How prepared are you for this ?
-    * [**Workshop Checklist**]() : For workshop facilitators, supporters and organisers. Is everything in place for the event ?
-    * [**Participant Checklist**]() : For workshop participants. Are you ready to rip on Day 1 ?
+  * **Readiness Checklists** : How prepared are you for this ?
+    * [**Workshop Checklist**]({{ site.url }}/event-prep/) : For workshop facilitators, supporters and organisers. Is everything in place for the event ?
+    * [**Participant Checklist**]({{ site.url }}/prerequisites/) : For workshop participants. Are you ready to rip on Day 1 ?
   * [**Agenda**](http://agenda.ct.infn.it/e/wacren-hackfest) : What happens day-to-day. The slides and other material _presented_ during the hackfest are on the agenda.
