@@ -27,3 +27,17 @@ pages:
     title: "{{ site.title }} Continuous Integration and Delivery"
     icon: heartbeat
     url: /ci-cd
+checklists:
+  before:
+    - name: Have a github account
+      more: Create an account on github, if you haven't done so already.
+      link: https://github.com/register
+    - name: Create your repository
+      more: Ensure that your project has a repository on github - we will need it.
+      link:
+    - name: Have an account on an federated identity provider
+      more: Many of the services provided are accessible via SAML-based identity federations.
+      link:
+    - name: Join the forum
+      more: The forum is the place to discuss ideas, get feedback
+      link:
