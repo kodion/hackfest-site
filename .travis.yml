@@ -12,7 +12,7 @@ install:
   - gem install jekyll html-proofer
   - bundle install
 script:
-  - jekyll build -c _config_travis.yml
+  - bundle exec jekyll build -c _config_travis.yml
   - htmlproofer ./_site
 
 env:
