@@ -16,9 +16,9 @@ We have only a few days to learn something new and use it to move mountains. The
 {% if item.link %}
   {% if item.link.external == false %}
   <a href="{{ site.url }}{{ item.link.url }}" class="btn btn-small">More</a>
-  {% endif %}
   {% else %}
   <a href="{{ item.link.url }}" class="btn btn-small">More</a>
+  {% endif %}
   {% endif %}
 </li>
 {% endfor %}

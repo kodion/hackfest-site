@@ -51,7 +51,14 @@ checklists:
       more: Create an account on github, if you haven't done so already.
       link:
         url: https://github.com/join
-      external: true
+        external: true
+    - name: Check your ssh keys
+      more: |
+            We will use your public ssh keys to set up a development environment which will be used for the warm-up exercises and if need be for development of your application, should your personal computer not be adequate.
+            Github allows users to publish their personal ssh keys, which we retrieve <a href="https://developer.github.com/v3/users/keys/">using the Github API</a>.
+      link:
+        url: https://github.com/settings/keys
+        external: true
     - name: Create your repository
       more: Ensure that your project has a repository on github - we will need it.
       link:
@@ -60,7 +67,8 @@ checklists:
 # Unfortunately, we can't interpret variables in the metadata - seo
     - name: Describe your stack
       more: |
-            Use <a href="http://stackshare.io/onboarding/stack-type">Stackshare</a> to create a stack for your  application. If you are in a team, use the <strong>"Company"</strong> stack type, else use the <strong>"personal"</strong> type. Tell us the id of the stack on the forum.
+            Use <a href="http://stackshare.io/onboarding/stack-type">Stackshare</a> to create a stack for your  application. If you are in a team, use the <strong>"Company"</strong> stack type, else use the <strong>"personal"</strong> type. If your tool isn't listed, <a href="http://stackshare.io/submit">submit it to Stackshare</a> for others to use later.
+            <strong>Then tell us the id of the stack on the forum.</strong>
       link:
         url: http://stackshare.io
         external: true
