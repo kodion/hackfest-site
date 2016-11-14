@@ -17,41 +17,42 @@
 
 # Organisations should have have logo
 
-brucellino:
-    name: "Bruce Becker"
-    photo: bruce-becker.jpg
-    orcid: 0000-0002-6607-7145
-    github: brucellino
-    twitter: brusisceddu
-    homepage: http://brucellino.me
-    org: csir
+everyone:
+  - brucellino:
+      name: "Bruce Becker"
+      photo:
+      orcid: 0000-0002-6607-7145
+      github: brucellino
+      twitter: brusisceddu
+      homepage: http://brucellino.me
+      org: csir
 
-owen:
-    name: "Owen  Iyoha"
-    photo: original.png
-    orcid:
-    github:
-    twitter:
-    homepage:
-    org: eko
+  - owen:
+      name: "Owen  Iyoha"
+      photo: original.png
+      orcid:
+      github:
+      twitter:
+      homepage:
+      org: eko
 
-omo:
-  name: "Omo Oaia"
-  photo: original.png
-  orcid:
-  github:
-  twitter:
-  homepage:
-  org: wacren
+  - omo:
+      name: "Omo Oaia"
+      photo: original.png
+      orcid:
+      github:
+      twitter:
+      homepage:
+      org: wacren
 
-roberto:
-  name: Roberto Barbera
-  photo: original.png
-  orcid:
-  github:
-  twitter:
-  homepage:
-  org: unict
+  - roberto:
+      name: Roberto Barbera
+      photo: original.png
+      orcid:
+      github:
+      twitter:
+      homepage:
+      org: unict
 
 benjamin:
   name: Benjamin Aribisala
@@ -62,7 +63,7 @@ benjamin:
   homepage:
   org: lasu
 
-benjamin:
+ade:
   name: Adeji
   photo: original.png
   orcid:
