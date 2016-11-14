@@ -24,3 +24,23 @@ Open Science has a strong emphasis on transparency and openness, and this includ
   1. <a href="https://try.github.io/levels/">Git Essentials</a> by <a href="https://www.codeschool.com">CodeSchool.</a>. You will need a Github account
   1. <a href="https://github.github.io/on-demand/intro-to-github/">Introduction to GitHub</a>.
   1. If you're using Windows or Mac, we're sorry - you're missing out on all the fun. But you _do_ get to use the <a href="https://desktop.github.com/">Github Desktop</a> application. Take the <a href="https://github.github.io/on-demand/github-desktop/">Github Desktop</a> course
+
+
+## Programming the web
+
+Whether you are building a small application or a fully-fledged science gateway, it will need to interact with other services on the web. These services will commonly expose a <strong><a href="https://en.wikipedia.org/wiki/Representational_state_transfer">REST API</a></strong>.
+
+### Training suggestions
+
+Apart from understanding the basic premise of what REST is, there is no standard tutorial for REST APIs. During the hackfest, we will be doing warm-up sessions of using the REST APIs of services in the <a href="https://www.sci-gaia.eu/osp">Open Science Platform</a>, but if you want to brush up on your skills we have a few suggested self-paced courses :
+
+  1. See the <a href="https://www.codecademy.com/apis">Codecademy list of API tutorials</a> - you may want to choose a ruby, javascript, or python-based tutorial based on your stack.
+
+<h3>Next </h3>
+<div class="text-center">
+<img class="user-image" src="{{ site.url }}/images/octobiwan.jpg" style="text-align: center;"/>  
+</div>
+
+
+
+Really ? Done already ? There's  nothing more to learn, young padawan... the time has come, you are ready. Why not take a look at the <a href="{{ site.data.hackfest.agenda}}">agenda</a>.
