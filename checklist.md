@@ -2,8 +2,8 @@
 layout: page
 title: Preparation Checklists
 permalink: /checklist/
-author: brucellino
 octocat: agendacat.png
+author: brucellino
 contributors:
 ---
 <div class="row"></div>
