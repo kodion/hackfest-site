@@ -13,7 +13,13 @@ We have only a few days to learn something new and use it to move mountains. The
 <ol>
 {% for item in site.data.hackfest.checklists.before %}
 <li> <strong>{{ item.name }}</strong> : {{ item.more }}
-{% if item.link %} <a href="{{ item.link }}" class="btn btn-small">More</a>{% endif %}
+{% if item.link %}
+  {% if item.link.external == false %}
+  <a href="{{ site.url }}{{ item.link.url }}" class="btn btn-small">More</a>
+  {% endif %}
+  {% else %}
+  <a href="{{ item.link.url }}" class="btn btn-small">More</a>
+  {% endif %}
 </li>
 {% endfor %}
 </ol>
@@ -22,7 +28,14 @@ If you have issues on any of these issues, drop the organisers an email <a href=
 
 ## All done ? Prove it !
 
-In order to show that you've finished this checklist, <a href="{{ start_topic }}" class="btn">reply to the introduction topic</a>.
+In order to show that you've finished this checklist tell us :
+
+  * **That your dev environment is set up** (Self-asserted)
+  * **Your github user name** _e.g._ `brucellino`
+  * **Your project's repository url** _e.g._ `https://github.com/AAROC/rasr-app`
+  * **Your project's StackShare url** _e.g._ `http://stackshare.io/sci-gaia-e-research-hackfest/dev-and-integration-platform`
+
+ <a href="{{ start_topic }}" class="btn">reply to the introduction topic</a>.
 
 ### Next
 
