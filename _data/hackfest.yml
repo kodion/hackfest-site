@@ -43,8 +43,8 @@ checklists:
   before:
     - name: Have a working development environment
       more:
-      link: |
-            {{ site.url }}/dev-env
+      link: dev-env
+      external: false
     - name: Have a github account
       more: Create an account on github, if you haven't done so already.
       link: https://github.com/join

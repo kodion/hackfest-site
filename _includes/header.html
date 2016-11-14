@@ -98,7 +98,7 @@
               <ul class="navigation">
                 {% for page in site.data.hackfest.pages %}
                 {% if page.url and page.title and page.icon and page.name %}
-                <li class="navigation__item"><a href="{{site.url }}/{{ page.url }}/" title="{{ page.title }}" class="blog-button"><i class="fa fa-{{ page.icon }}"></i>  {{ page.name }}</a></li>
+                <li class="navigation__item"><a href="{{site.url }}{{ page.url }}" title="{{ page.title }}" class="blog-button"><i class="fa fa-{{ page.icon }}"></i>  {{ page.name }}</a></li>
                 {% endif %}
                 {% endfor %}
               </ul>

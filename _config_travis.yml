@@ -14,8 +14,13 @@ organiser:
   facebook_username:
   github_username:
   linkedin_username:
-infrastructure:
-  jenkins_url: ''
+tools:
+  - jekyll_small
+  - bootstrap
+  - atom
+  - github_full
+  - travis
+
 defaults:
   -
     scope:

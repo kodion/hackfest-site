@@ -1,11 +1,11 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: about/
+octocat: supportcat.png
 author: brucellino
 contributors:
 ---
-
 
 ## TL;DR
 

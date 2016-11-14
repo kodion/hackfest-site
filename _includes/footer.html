@@ -1,5 +1,17 @@
 <footer class="footer">
-  <span class="footer__copyright"><a href="http://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat-square" style="height: 1.3em;" title="The MIT License" alt="The MIT License" /></a> -  All material released under MIT License. {{ site.time | date: '%Y' }} by {{ site.organiser.name }}.</span>
+  <span class="footer__copyright text-center"><a href="http://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat-square" style="height: 1.3em;" title="The MIT License" alt="The MIT License" /></a>
+    <p class="text-center">
+      All material released under MIT License. {{ site.time | date: '%Y' }} by {{  site.organiser.name }}.
+    </p>
+    </span>
+  <span class="footer__copyright text-center">Made with <i class="fa fa-heart" style="font-color: red;"></i> using :
+    <ul class="list-inline text-center">
+      {% for tool in site.tools %}
+      <li>
+        <span style="font-size: 2em;" class="devicons devicons-{{ tool }}"></span>
+      </li>
+      {% endfor %}
+    </ul>
 </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

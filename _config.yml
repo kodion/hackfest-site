@@ -14,8 +14,13 @@ organiser:
   facebook_username:
   github_username: Sci-GaIA
   linkedin_username:
-infrastructure:
-  jenkins_url: 'https://ci.sagrid.ac.za'
+tools:
+  - jekyll_small
+  - bootstrap
+  - atom
+  - github_full
+  - travis
+
 defaults:
   -
     scope:
