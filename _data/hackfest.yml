@@ -82,18 +82,32 @@ checklists:
       link:
         url: http://discourse.sci-gaia.eu
         external: true
-
-  dev_env:
-    - name: Editor
-      more: Ensure you have a good editor. We suggest <a href="http://atom.io">Atom</a>
+# It would be better to link to the slides directly in the repo. This makes the event
+# more portable.
+    - name: Prepare us for your project
+      more: |
+            The facilitators and fellow participants are curious about the technical details of your project. We want to know  what problem you're addressing, issues you've identified in the project, and how you plan to work on them. On Day 2, we expect participants to give detailed presentations of their use case - We have prepared a slide show template for you.
       link:
-        url:
-        external:
-    - name: Git client
-      more: "You will need the git client, with a properly-configured environment"
-      link:
-        url: http://swcarpentry.github.io/git-novice/02-setup/
+        url: http://indico.wacren.net/event/43/material/0/
         external: true
+
+dev_env:
+  - name: A good editor Editor
+    more: Ensure you have a good editor. We suggest <a href="http://atom.io">Atom</a>
+    link:
+      url:
+      external:
+  - name: Git client
+    more: "You will need the git client, with a properly-configured environment"
+    link:
+      url: http://swcarpentry.github.io/git-novice/02-setup/
+      external: true
+  - name: cURL commmand-line REST-API client
+    more: |
+            "Most of the warm-up exercises will have you interacting with REST APIs. The simplest tool to do this is the cURL command-line interface. It can be installed from your OS repositories"
+    link:
+      url: https://curl.haxx.se/
+      external: true
 
 infrastructure:
   jenkins_url: 'https://ci.sagrid.ac.za'
