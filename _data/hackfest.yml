@@ -4,8 +4,8 @@ repo: AAROC/hackfest-site
 # Create a topic on the forum for attendees to introduce themselves
 discuss_topic: http://discourse.sci-gaia.eu/t/agenda-and-training-infrastructure-of-the-wacren-hackfest-lets-start-the-discussion/2366
 start_topic: http://discourse.sci-gaia.eu/t/devops-bootcamp-entebbe-nov-2016-tell-us-about-yourself/2367
-agenda: http://agenda.ct.infn.it/event/1243/other-view?view=indico_infn_meeting
-registration: http://agenda.ct.infn.it/event/1243/registration/register#/register
+agenda: https://indico.wacren.net/event/43/overview
+registration: https://indico.wacren.net/event/43/registration/register#/register
 # epoch time - use e.g. http://www.freeformatter.com/epoch-timestamp-to-date-converter.html
 start_time: 1479711600
 end_date: 1480521600
@@ -42,25 +42,50 @@ pages:
 checklists:
   before:
     - name: Have a working development environment
-      more:
-      link: dev-env
-      external: false
+      more: |
+            The hackfest is all about code. It's best to have a working setup on your laptop - turn your personal computer into a development machine with some of our suggestions. Bear in mind <a href="http://dictionary.cambridge.org/dictionary/english/ymmv">YMMV</a>
+      link:
+        url: /dev-env
+        external: false
     - name: Have a github account
       more: Create an account on github, if you haven't done so already.
-      link: https://github.com/join
+      link:
+        url: https://github.com/join
+      external: true
     - name: Create your repository
       more: Ensure that your project has a repository on github - we will need it.
       link:
+        url:
+        external:
+# Unfortunately, we can't interpret variables in the metadata - seo
+    - name: Describe your stack
+      more: |
+            Use <a href="http://stackshare.io/onboarding/stack-type">Stackshare</a> to create a stack for your  application. If you are in a team, use the <strong>"Company"</strong> stack type, else use the <strong>"personal"</strong> type. Tell us the id of the stack on the forum.
+      link:
+        url: http://stackshare.io
+        external: true
     - name: Have an account on an federated identity provider
       more: Many of the services provided are accessible via SAML-based identity federations.
-      link: "{{ site.url }}/idf"
+      link:
+        url: /idf
+        external: false
     - name: Join the forum
       more: The forum is the place to discuss ideas, get feedback
       link:
+        url: http://discourse.sci-gaia.eu
+        external: true
+
   dev_env:
     - name: Editor
       more: Ensure you have a good editor. We suggest <a href="http://atom.io">Atom</a>
+      link:
+        url:
+        external:
     - name: Git client
       more: "You will need the git client, with a properly-configured environment"
+      link:
+        url: http://swcarpentry.github.io/git-novice/02-setup/
+        external: true
+
 infrastructure:
   jenkins_url: 'https://ci.sagrid.ac.za'
