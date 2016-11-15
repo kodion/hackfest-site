@@ -20,7 +20,7 @@
 members:
   brucellino:
     name: "Bruce Becker"
-    photo:
+    photo: bruce-becker.jpg
     orcid: 0000-0002-6607-7145
     github: brucellino
     twitter: brusisceddu
@@ -90,7 +90,14 @@ members:
     twitter:
     homepage:
     org: unict
-
+  riccardo:
+    name: Riccardo Bruno
+    photo: original.png
+    orcid:
+    github:
+    twitter:
+    homepage:
+    org: unict
 # Roles
 organisers:
   - owen
@@ -106,3 +113,5 @@ presenters:
   - brucellino
   - ade
   - benjamin
+  - roberto
+  - riccardo
