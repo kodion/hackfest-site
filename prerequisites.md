@@ -45,4 +45,13 @@ Apart from understanding the basic premise of what REST is, there is no standard
 <img class="user-image" src="{{ site.url }}/images/octobiwan.jpg" style="text-align: center;"/>
 </div>
 
-Really ? Done already ? There's  nothing more to learn, young padawan. The time has come, you are ready. Why not take a look at the <a href="{{ site.data.hackfest.agenda}}">agenda</a>.
+Really ? Done already ? The time has come, young padawan ! But learning never ends...
+
+<ul class="list-inline">
+  <li>
+    <a href="{{ site.data.hackfest.agenda}}" class="btn btn-small">Check the agenda</a>
+  </li>
+  <li>
+    <a href="{{ site.url }}/before-prep" class="btn btn-small">Read the material</a>
+  </li>
+</ul>

@@ -15,10 +15,10 @@ pages:
     title: "About the {{ site.title }}"
     icon: info-circle
     url: /about
-  # - name: Use Cases
-  #   title: "{{ site.title }} use cases"
-  #   icon: drivers-license-o
-  #   url: /use-cases
+    # - name: Use Cases
+    #   title: "{{ site.title }} use cases"
+    #   icon: drivers-license-o
+    #   url: /use-cases
   - name: Team
     title: "The {{ site.title }} team"
     icon: user-circle
@@ -90,7 +90,26 @@ checklists:
       link:
         url: http://indico.wacren.net/event/43/material/0/
         external: true
-# This variable describes what is needed for a development environmnet
+
+# This checklist should be done after the prerequisites. It will provide links to previous
+# hackfests, as well as the material involved.
+
+  before_prep:
+    - name: Future Gateway
+      description: |
+                    Exercises in using the Future Gateway API to submit and track jobs on the gridcloud.
+      url:
+    - name: gLibrary
+      description: |
+                    Use the gLibrary metadata service to store, retrieve and manage repositories and collections of metadata and data.
+      url: http://csgf.readthedocs.io/en/latest/glibrary/docs/glibrary2.html
+    - name: Open Access Repositories.
+      description: |
+                    Use the XML API to query Invenio Open Access data and document repositories, and publish research output with persistent unique identifiers.
+      url: 
+
+
+# This variable describes what is needed for a development environment
 dev_env_generic:
   - name: A good editor Editor
     more: Ensure you have a good editor. We suggest <a href="http://atom.io">Atom</a>
@@ -108,6 +127,17 @@ dev_env_generic:
     link:
       url: https://curl.haxx.se/
       external: true
+
+material:
+  - name: Sci-GaIA Hackfest page
+    description: |
+                  The first Sci-GaIA hackfest was held in June in Catania. It was the first of it's kind and held in collaboration with the <a href="http://www.indigo-datacloud.eu">Indigo DataCloud</a> project.
+    links:
+      - name: Main page
+        url: http://www.sci-gaia.eu/summer-hackfest
+      - name: Recorded Videos
+        url: |
+              https://www.youtube.com/playlist?list=PLRNChYjPMFFtuXcTUAQvLtln1Yk2tLQxe
 
 infrastructure:
   jenkins_url: 'https://ci.sagrid.ac.za'
