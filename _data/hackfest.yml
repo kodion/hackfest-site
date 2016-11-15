@@ -98,7 +98,7 @@ checklists:
     - name: Future Gateway
       description: |
                     Exercises in using the Future Gateway API to submit and track jobs on the gridcloud.
-      url:
+      url: https://indigo-dc.gitbooks.io/futuregateway/content/usage.html
     - name: gLibrary
       description: |
                     Use the gLibrary metadata service to store, retrieve and manage repositories and collections of metadata and data.
@@ -106,7 +106,7 @@ checklists:
     - name: Open Access Repositories.
       description: |
                     Use the XML API to query Invenio Open Access data and document repositories, and publish research output with persistent unique identifiers.
-      url: 
+      url:
 
 
 # This variable describes what is needed for a development environment
