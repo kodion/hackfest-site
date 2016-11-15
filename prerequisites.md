@@ -30,10 +30,6 @@ Open Science has a strong emphasis on transparency and openness, and this includ
 
 Whether you are building a small application or a fully-fledged science gateway, it will need to interact with other services on the web. These services will commonly expose a <strong><a href="https://en.wikipedia.org/wiki/Representational_state_transfer">REST API</a></strong>.
 
-### Suggested applications and libraries
-
-We expect you to know your application
-
 ### Training suggestions
 
 Apart from understanding the basic premise of what REST is, there is no standard tutorial for REST APIs. During the hackfest, we will be doing warm-up sessions of using the REST APIs of services in the <a href="https://www.sci-gaia.eu/osp">Open Science Platform</a>, but if you want to brush up on your skills we have a few suggested self-paced courses :
