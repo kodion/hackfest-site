@@ -12,7 +12,7 @@ organiser:
   email: info@sci-gaia.eu
   twitter_username: ei4africa
   facebook_username:
-  github_username: Sci-GaIA
+  repo: AAROC/hackfest-site
   linkedin_username:
 built_with:
   - jekyll_small
