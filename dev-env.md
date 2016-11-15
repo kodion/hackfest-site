@@ -42,8 +42,12 @@ Here are a few suggestions for language-specific stacks:
 
 # Set up your own
 
-
+<span class="text-info">Coming soon</span>
 
 # Use Docker
 
+<span class="text-info">Coming soon</span>
+
 # Use a machine provided for you
+
+<span class="text-info">Coming soon</span>
