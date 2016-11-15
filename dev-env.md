@@ -6,7 +6,9 @@ author: brucellino
 octocat: constructocat2.jpg
 contributors:
 ---
-
+<div class="row">
+  
+</div>
 The **development environment** refers to a setup where all of the dependencies and configuration needed to both **develop** and **test** your applicaiton are available. The development environment should be as close as possible to the **deployment** environment. The tools described here are the **bare minimum** needed to complete the warmup exercises.
 
 ## General description
