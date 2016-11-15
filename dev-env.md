@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Development Environment
-permalink: /dev-env
+permalink: /dev-env/
 author: brucellino
+octocat: constructocat2.jpg
 contributors:
 ---
 
@@ -12,13 +13,28 @@ The **development environment** refers to a setup where all of the dependencies 
 
 You will need :
 
+### OS libraries
+
 <ul>
-{% for tool in site.data.hackfest.dev-env %}
+{% for tool in site.data.hackfest.dev_env_generic %}
 <li>
   <strong>{{ tool.name }}</strong>
 </li>
 {% endfor %}
 </ul>
+
+### Language-specific stacks
+
+**Suggested applications and libraries**
+
+We expect you to know your application stack well and use whichever tools make sense to you. It is very useful to have a REST inspector in your browser for testing, and we sugget using [Postman](). Here are a few suggestions for language-specific stacks:
+
+
+  * <span class="devicons devicons-python"></span>**Python** : [Python Requests](http://docs.python-requests.org/en/master/)
+  * <span class="devicons devicons-ruby"></span>**Ruby** : [HTTParty](http://johnnunemaker.com/httparty/)
+
+
+
 # Set up your own
 
 
