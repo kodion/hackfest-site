@@ -112,21 +112,42 @@ checklists:
 # This variable describes what is needed for a development environment
 dev_env_generic:
   - name: A good editor Editor
-    more: Ensure you have a good editor. We suggest <a href="http://atom.io">Atom</a>
+    icon: atom
+    more: Ensure you have a good editor. We suggest Atom, but use whatever you're comfortable with.
     link:
-      url:
-      external:
+      url: http://atom.io
   - name: Git client
+    icon: git
     more: "You will need the git client, with a properly-configured environment"
     link:
       url: http://swcarpentry.github.io/git-novice/02-setup/
-      external: true
-  - name: cURL commmand-line REST-API client
+  - name: Python environment (optional)
+    icon: python
     more: |
-            "Most of the warm-up exercises will have you interacting with REST APIs. The simplest tool to do this is the cURL command-line interface. It can be installed from your OS repositories"
+            If you are using anything in the python stack (<a href="http://flask.pocoo.org/docs/0.11/quickstart/">flask</a>, <a href="https://www.djangoproject.com/">Django</a>), you will need the pip package manager and the Python command-line and libraries. See <a href="https://www.python.org/downloads/">the python page for your package info</a>
+  - name: Node environment (optional)
+    icon: nodejs_small
+    more: A few tools are backaged with the Node.js package manager npm.
+    link:
+      url: https://nodejs.org/en/download/package-manager/
+  - name: Ruby environment (optional)
+    icon: ruby
+    more: If you are developing a Rails or Sinatra app, you will need Ruby gems.
+    link:
+      url: https://www.ruby-lang.org/en/downloads/
+  - name: cURL commmand-line REST-API client
+    icon: terminal
+    more: |
+            Most of the warm-up exercises will have you interacting with REST APIs. The simplest tool to do this is the cURL command-line interface. It can be installed from your OS repositories
     link:
       url: https://curl.haxx.se/
-      external: true
+  - name: Postman
+    icon: chrome
+    more: |
+            Postman is a tool for testing APIs and applications which use them. There is a chrome browser add-on, as well as a command-line tool (newman). Both of them will be useful.
+    link:
+      url: https://www.getpostman.com/docs/introduction
+
 
 material:
   - name: Sci-GaIA Hackfest page
