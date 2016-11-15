@@ -18,7 +18,8 @@ You will need :
 <ul>
 {% for tool in site.data.hackfest.dev_env_generic %}
 <li>
-  <strong>{{ tool.name }}</strong>
+  <span class="devicons devicons-{{ tool.icon }}" style="font-size: 2em;"></span><strong>{{ tool.name }}</strong>: {{ tool.more }}.
+  <a href="{{ tool.link.url }}" class="btn btn-small">More</a>
 </li>
 {% endfor %}
 </ul>
@@ -27,7 +28,11 @@ You will need :
 
 **Suggested applications and libraries**
 
-We expect you to know your application stack well and use whichever tools make sense to you. It is very useful to have a REST inspector in your browser for testing, and we sugget using [Postman](). Here are a few suggestions for language-specific stacks:
+We expect you to know your application stack well and use whichever tools make sense to you. It is very useful to have a REST inspector in your browser for testing, and we suggest using [Postman](https://www.getpostman.com/) for testing how your code uses the APIs of the various components of the platform.
+
+
+
+Here are a few suggestions for language-specific stacks:
 
 
   * <span class="devicons devicons-python"></span>**Python** : [Python Requests](http://docs.python-requests.org/en/master/)
