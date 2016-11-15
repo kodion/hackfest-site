@@ -15,10 +15,10 @@ pages:
     title: "About the {{ site.title }}"
     icon: info-circle
     url: /about
-  - name: Use Cases
-    title: "{{ site.title }} use cases"
-    icon: drivers-license-o
-    url: /use-cases
+  # - name: Use Cases
+  #   title: "{{ site.title }} use cases"
+  #   icon: drivers-license-o
+  #   url: /use-cases
   - name: Team
     title: "The {{ site.title }} team"
     icon: user-circle
@@ -90,8 +90,8 @@ checklists:
       link:
         url: http://indico.wacren.net/event/43/material/0/
         external: true
-
-dev_env:
+# This variable describes what is needed for a development environmnet
+dev_env_generic:
   - name: A good editor Editor
     more: Ensure you have a good editor. We suggest <a href="http://atom.io">Atom</a>
     link:

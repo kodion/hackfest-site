@@ -19,11 +19,19 @@ layout: default
   <section class="post">
     {{ content }}
   </section>
-{% assign key = page.author %}.
 
 <p>
   <div class="post-meta">
-    <em>Author: </em> {{ site.data.team[key].name }} <a href="https://github.com/{{ site.data.team[key].github}}"<i class="fa fa-github"></i></a> <a href="https://twitter.com/{{ site.data.team[key].twitter}}"><i class="fa fa-twitter"></i></a><br>
-    Contributors: <br>
+    <em>Author: </em> {{ site.data.team.members[page.author].name }} <a href="https://github.com/{{ site.data.team.members[key].github}}"<i class="fa fa-github"></i></a> <a href="https://twitter.com/{{ site.data.team.members.[key].twitter}}"><i class="fa fa-twitter"></i></a><br>
+    {% if page.contributors %}
+    Contributors:
+    <ul>
+    {% for contrib in page.contributors %}
+    <li class="list-inline">
+      {{ site.data.team.members[contrib].name }}
+    </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
   </div>
 </article>
