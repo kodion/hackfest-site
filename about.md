@@ -15,7 +15,10 @@ contributors:
 
 ## Everything you need
 
-  * **Readiness Checklists** : How prepared are you for this ?
-    * [**Workshop Checklist**]({{ site.url }}/event-prep/) : For workshop facilitators, supporters and organisers. Is everything in place for the event ?
-    * [**Participant Checklist**]({{ site.url }}/prerequisites/) : For workshop participants. Are you ready to rip on Day 1 ?
-  * [**Agenda**](http://agenda.ct.infn.it/e/wacren-hackfest) : What happens day-to-day. The slides and other material _presented_ during the hackfest are on the agenda.
+  * [**Participant Checklist**]({{ site.url }}/checklist/) : For workshop participants. Are you ready to rip on Day 1 ?
+    * [**Pre-event checklist**]({{ site.url }}/before-checklist/) : Do this before you come to the event.
+    * [**Prerequisite Knowledge**]({{ site.url}}/prerequisites/) : Things you need to know how to use and do during the hackfest.
+    * [**Background Reading**]({{ site.url }}/before-prep) : Useful material to help you when the rubber meets the road.
+  * [**Agenda**]({{ site.agenda }}) : What happens day-to-day. The slides and other material _presented_ during the hackfest are on the agenda.
+  * [**Previous Hackfests**]:(http://www.sci-gaia.eu/summer-hackfest) - material, recordings and other material from previous hackfests
+  *
