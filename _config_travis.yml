@@ -14,7 +14,7 @@ organiser:
   facebook_username:
   github_username:
   linkedin_username:
-tools:
+built_with:
   - jekyll_small
   - bootstrap
   - atom
