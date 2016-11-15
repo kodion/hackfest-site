@@ -32,7 +32,7 @@ Whether you are building a small application or a fully-fledged science gateway,
 
 ### Training suggestions
 
-Apart from understanding the basic premise of what REST is, there is no standard tutorial for REST APIs. During the hackfest, we will be doing warm-up sessions of using the REST APIs of services in the <a href="https://www.sci-gaia.eu/osp">Open Science Platform</a>, but if you want to brush up on your skills we have a few suggested self-paced courses :
+Apart from understanding the basic premise of what REST is, there is no standard tutorial for REST APIs. During the hackfest, we will be doing warm-up sessions of using the REST APIs of services in the <a href="http://www.sci-gaia.eu/osp">Open Science Platform</a>, but if you want to brush up on your skills we have a few suggested self-paced courses :
 
   1. See the <a href="https://www.codecademy.com/apis">Codecademy list of API tutorials</a> - you may want to choose a ruby, javascript, or python-based tutorial based on your stack.
 
