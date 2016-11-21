@@ -35,7 +35,7 @@ In order to show that you've finished this checklist tell us :
   * **Your project's repository url** _e.g._ `https://github.com/AAROC/rasr-app`
   * **Your project's StackShare url** _e.g._ `http://stackshare.io/sci-gaia-e-research-hackfest/dev-and-integration-platform`
 
- <a href="{{ start_topic }}" class="btn">reply to the introduction topic</a>.
+ <a href="{{ site.data.hackfest.start_topic }}" class="btn">reply to the introduction topic</a>.
 
 ### Next
 
