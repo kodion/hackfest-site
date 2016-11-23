@@ -17,12 +17,12 @@ organiser:
   github_username: Sci-GaIA
   linkedin_username:
 # Made with love using these tools. This goes in the footer. Uses Devicons
-tools:
+built_with:
   - jekyll_small
   - bootstrap
   - atom
   - github_full
-  - travis  
+  - travis
 
 defaults:
   -

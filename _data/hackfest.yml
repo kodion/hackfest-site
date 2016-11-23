@@ -15,10 +15,10 @@ pages:
     title: "About the {{ site.title }}"
     icon: info-circle
     url: /about
-  - name: Use Cases
-    title: "{{ site.title }} use cases"
-    icon: drivers-license-o
-    url: /use-cases
+    # - name: Use Cases
+    #   title: "{{ site.title }} use cases"
+    #   icon: drivers-license-o
+    #   url: /use-cases
   - name: Team
     title: "The {{ site.title }} team"
     icon: user-circle
@@ -51,7 +51,14 @@ checklists:
       more: Create an account on github, if you haven't done so already.
       link:
         url: https://github.com/join
-      external: true
+        external: true
+    - name: Check your ssh keys
+      more: |
+            We will use your public ssh keys to set up a development environment which will be used for the warm-up exercises and if need be for development of your application, should your personal computer not be adequate.
+            Github allows users to publish their personal ssh keys, which we retrieve <a href="https://developer.github.com/v3/users/keys/">using the Github API</a>.
+      link:
+        url: https://github.com/settings/keys
+        external: true
     - name: Create your repository
       more: Ensure that your project has a repository on github - we will need it.
       link:
@@ -60,32 +67,104 @@ checklists:
 # Unfortunately, we can't interpret variables in the metadata - seo
     - name: Describe your stack
       more: |
-            Use <a href="http://stackshare.io/onboarding/stack-type">Stackshare</a> to create a stack for your  application. If you are in a team, use the <strong>"Company"</strong> stack type, else use the <strong>"personal"</strong> type. Tell us the id of the stack on the forum.
+            Use <a href="http://stackshare.io/onboarding/stack-type">Stackshare</a> to create a stack for your  application. If you are in a team, use the <strong>"Company"</strong> stack type, else use the <strong>"personal"</strong> type. If your tool isn't listed, <a href="http://stackshare.io/submit">submit it to Stackshare</a> for others to use later.
+            <strong>Then tell us the id of the stack on the forum.</strong>
       link:
         url: http://stackshare.io
         external: true
     - name: Have an account on an federated identity provider
       more: Many of the services provided are accessible via SAML-based identity federations.
       link:
-        url: /idf
-        external: false
+        url: http://www.sci-gaia.eu/federated-services/
+        external: true
     - name: Join the forum
       more: The forum is the place to discuss ideas, get feedback
       link:
         url: http://discourse.sci-gaia.eu
         external: true
-
-  dev_env:
-    - name: Editor
-      more: Ensure you have a good editor. We suggest <a href="http://atom.io">Atom</a>
+# It would be better to link to the slides directly in the repo. This makes the event
+# more portable.
+    - name: Prepare us for your project
+      more: |
+            The facilitators and fellow participants are curious about the technical details of your project. We want to know  what problem you're addressing, issues you've identified in the project, and how you plan to work on them. On Day 2, we expect participants to give detailed presentations of their use case - We have prepared a slide show template for you.
       link:
-        url:
-        external:
-    - name: Git client
-      more: "You will need the git client, with a properly-configured environment"
-      link:
-        url: http://swcarpentry.github.io/git-novice/02-setup/
+        url: http://indico.wacren.net/event/43/material/0/
         external: true
+
+# This checklist should be done after the prerequisites. It will provide links to previous
+# hackfests, as well as the material involved.
+
+  before_prep:
+    - name: Future Gateway
+      description: |
+                    Exercises in using the Future Gateway API to submit and track jobs on the gridcloud.
+      url: https://indigo-dc.gitbooks.io/futuregateway/content/usage.html
+    - name: gLibrary
+      description: |
+                    Use the gLibrary metadata service to store, retrieve and manage repositories and collections of metadata and data.
+      url: http://csgf.readthedocs.io/en/latest/glibrary/docs/glibrary2.html
+    - name: Open Access Repositories.
+      description: |
+                    Use the XML API to query Invenio Open Access data and document repositories, and publish research output with persistent unique identifiers.
+      url:
+
+
+# This variable describes what is needed for a development environment
+dev_env_generic:
+  - name: A good editor Editor
+    icon: atom
+    more: Ensure you have a good editor. We suggest Atom, but use whatever you're comfortable with.
+    link:
+      url: http://atom.io
+  - name: Git client
+    icon: git
+    more: "You will need the git client, with a properly-configured environment"
+    link:
+      url: http://swcarpentry.github.io/git-novice/02-setup/
+  - name: Python environment (optional)
+    icon: python
+    more: |
+            If you are using anything in the python stack (<a href="http://flask.pocoo.org/docs/0.11/quickstart/">flask</a>, <a href="https://www.djangoproject.com/">Django</a>), you will need the pip package manager and the Python command-line and libraries. See <a href="https://www.python.org/downloads/">the python page for your package info</a>
+  - name: PHP Environment (optional)
+    icon: php
+    more: |
+          If you are developing a php, you will need both the php libraries and the testing tools. See <a href="http://www.hongkiat.com/blog/automated-php-test/">some frameworks for testing</a>.
+    link:
+      url: http://php.net/manual/en/install.php
+  - name: Node.js environment (optional)
+    icon: nodejs_small
+    more: A few tools are backaged with the Node.js package manager npm.
+    link:
+      url: https://nodejs.org/en/download/package-manager/
+  - name: Ruby environment (optional)
+    icon: ruby
+    more: If you are developing a Rails or Sinatra app, you will need Ruby gems.
+    link:
+      url: https://www.ruby-lang.org/en/downloads/
+  - name: cURL commmand-line REST-API client
+    icon: terminal
+    more: |
+            Most of the warm-up exercises will have you interacting with REST APIs. The simplest tool to do this is the cURL command-line interface. It can be installed from your OS repositories
+    link:
+      url: https://curl.haxx.se/
+  - name: Postman Browser and CLI API tool
+    icon: chrome
+    more: |
+            Postman is a tool for testing APIs and applications which use them. There is a chrome browser add-on, as well as a command-line tool (newman). Both of them will be useful.
+    link:
+      url: https://www.getpostman.com/docs/introduction
+
+
+material:
+  - name: Sci-GaIA Hackfest page
+    description: |
+                  The first Sci-GaIA hackfest was held in June in Catania. It was the first of it's kind and held in collaboration with the <a href="http://www.indigo-datacloud.eu">Indigo DataCloud</a> project.
+    links:
+      - name: Main page
+        url: http://www.sci-gaia.eu/summer-hackfest
+      - name: Recorded Videos
+        url: |
+              https://www.youtube.com/playlist?list=PLRNChYjPMFFtuXcTUAQvLtln1Yk2tLQxe
 
 infrastructure:
   jenkins_url: 'https://ci.sagrid.ac.za'

@@ -1,3 +1,6 @@
+<span class="text-info"><p class="text-center">
+<a href="http://discourse.sci-gaia.eu/" class="btn">Discuss this page</a></span>
+</p>
 <footer class="footer">
   <span class="footer__copyright text-center"><a href="http://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat-square" style="height: 1.3em;" title="The MIT License" alt="The MIT License" /></a>
     <p class="text-center">
@@ -6,7 +9,7 @@
     </span>
   <span class="footer__copyright text-center">Made with <i class="fa fa-heart" style="font-color: red;"></i> using :
     <ul class="list-inline text-center">
-      {% for tool in site.tools %}
+      {% for tool in site.built_with %}
       <li>
         <span style="font-size: 2em;" class="devicons devicons-{{ tool }}"></span>
       </li>

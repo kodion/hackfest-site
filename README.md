@@ -35,6 +35,9 @@ organiser:
 infrastructure:
   jenkins_url: 'https://ci.sagrid.ac.za'
 
+# Assets
+
+There are some static files and scripts in `assets` which are useful for seeding the event. 
 
 ## What this is for
 

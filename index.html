@@ -6,8 +6,23 @@ author: brucellino
 contributors:
 ---
 <div class="jumbotron">
-<h1>{{ site.title }}</h1>
-<h2>Starts {{ site.data.hackfest.start_time | date: "%A %d %B %Y at %H:%M"}}</h2>
+<h2>{{ site.title }}</h2>
+<blockquote>
+  {{ site.intro }}
+</blockquote>
+<h3>Starts {{ site.data.hackfest.start_time | date: "%A %d %B %Y at %H:%M"}}</h3>
+<ul class="list-inline">
+  <li>
+    <a href="{{ site.url }}/before-checklist/" class="btn">Pre-event checklist</a>
+  </li>
+  <li>
+    <a href="{{ site.url }}/prerequisites/" class="btn">Prerequisite knowledge</a>
+  </li>
+  <li>
+    <a href="{{ site.url }}/before-prep/" class="btn">Background material</a>
+  </li>
+</ul>
+</ul>
 <ul class="list-inline">
   <li>
     <a href="{{ site.data.hackfest.registration }}" class="btn"><i class="fa fa-sign-in"></i> Register</a>

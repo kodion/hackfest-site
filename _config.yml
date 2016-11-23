@@ -1,20 +1,20 @@
 # Site settings
-title: 'e-Research Hackfest'
+title: 'WACREN/Sci-GaIA e-Research Hackfest'
 description: 'Bring your science to the web and the web to your science'
 url: 'http://www.africa-grid.org/hackfest-site/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
-intro: 'The Sci-GaIA Hackfest brings together e-Science platform developers and scientists, to build tools for scientific discovery. These pages contain everything you need to get going and get it built'
+intro: 'The Hackfest brings together e-Science platform developers and scientists, to build tools for scientific discovery. These pages contain everything you need to get going and get it built'
 
 organiser:
   name: 'Sci-GaIA Project'
   email: info@sci-gaia.eu
   twitter_username: ei4africa
   facebook_username:
-  github_username: Sci-GaIA
+  repo: AAROC/hackfest-site
   linkedin_username:
-tools:
+built_with:
   - jekyll_small
   - bootstrap
   - atom

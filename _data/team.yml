@@ -17,7 +17,8 @@
 
 # Organisations should have have logo
 
-brucellino:
+members:
+  brucellino:
     name: "Bruce Becker"
     photo: bruce-becker.jpg
     orcid: 0000-0002-6607-7145
@@ -26,7 +27,7 @@ brucellino:
     homepage: http://brucellino.me
     org: csir
 
-owen:
+  owen:
     name: "Owen  Iyoha"
     photo: original.png
     orcid:
@@ -35,6 +36,7 @@ owen:
     homepage:
     org: eko
 
+<<<<<<< HEAD
 omo:
   name: "Omo Oaia"
   photo: original.png
@@ -52,44 +54,70 @@ roberto:
   twitter:
   homepage:
   org: unict
+=======
+  omo:
+    name: "Omo Oaia"
+    photo: original.png
+    orcid:
+    github:
+    twitter:
+    homepage:
+    org: wacren
+>>>>>>> AAROC/master
 
-benjamin:
-  name: Benjamin Aribisala
-  photo: original.png
-  orcid:
-  github:
-  twitter:
-  homepage:
-  org: lasu
+  roberto:
+    name: Roberto Barbera
+    photo: original.png
+    orcid:
+    github:
+    twitter:
+    homepage:
+    org: unict
 
-benjamin:
-  name: Adeji
-  photo: original.png
-  orcid:
-  github:
-  twitter:
-  homepage:
-  org: lasu
+  benjamin:
+    name: Benjamin Aribisala
+    photo: original.png
+    orcid:
+    github:
+    twitter:
+    homepage:
+    org: lasu
+
+  ade:
+    name: Adeji
+    photo: original.png
+    orcid:
+    github:
+    twitter:
+    homepage:
+    org: lasu
 
 
-rita:
-  name: Rita Ricceri
-  photo: original.png
-  orcid:
-  github:
-  twitter:
-  homepage:
-  org: lasu
+  rita:
+    name: Rita Ricceri
+    photo: original.png
+    orcid:
+    github:
+    twitter:
+    homepage:
+    org: lasu
 
-mario:
-  name: Mario Torrisi
-  photo: original.png
-  orcid:
-  github:
-  twitter:
-  homepage:
-  org: unict
-
+  mario:
+    name: Mario Torrisi
+    photo: original.png
+    orcid:
+    github:
+    twitter:
+    homepage:
+    org: unict
+  riccardo:
+    name: Riccardo Bruno
+    photo: original.png
+    orcid:
+    github:
+    twitter:
+    homepage:
+    org: unict
 # Roles
 organisers:
   - owen
@@ -105,3 +133,5 @@ presenters:
   - brucellino
   - ade
   - benjamin
+  - roberto
+  - riccardo
